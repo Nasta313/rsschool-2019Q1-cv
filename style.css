@@ -1,0 +1,34 @@
+body {
+    font-family: 'Roboto', "Arial", sans-serif;
+    text-align: justify;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1024px;
+}
+
+.main-img {
+   display: inline-block;
+}
+
+.contacts {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+.contacts ul {
+    list-style: none;
+    padding:0;
+}
+
+.contacts img {
+    padding: 0 5px;
+}
+
+.section h3 {
+    padding: 10px 20px;
+    background-color: bisque;
+}
