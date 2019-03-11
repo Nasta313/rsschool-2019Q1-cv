@@ -1,11 +1,29 @@
 body {
     font-family: 'Roboto', "Arial", sans-serif;
     text-align: justify;
+    background-color: #e8ebf3;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(29, 143, 151);
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.text{
+    text-indent: 25px;
 }
 
 .wrapper {
     margin: 0 auto;
+    padding: 20px;
     max-width: 1024px;
+    line-height: 150%;
+    background-color: white;
 }
 
 .main-img {
@@ -14,14 +32,14 @@ body {
 
 .contacts {
     display: inline-block;
-    vertical-align: top;
     padding-left: 40px;
+    vertical-align: top;
     font-size: 20px;
 }
 
 .contacts ul {
+    padding: 0;
     list-style: none;
-    padding:0;
 }
 
 .contacts img {
